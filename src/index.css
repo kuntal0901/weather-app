@@ -47,7 +47,9 @@
   --box-shadow-2: 0 4px 4px var(--neutral-600);
   --box-shadow-3:
     0 0 0 3px var(--neutral-900),
-    0 0 0 5px var(--blue-500)
+    0 0 0 5px var(--blue-500);
+  --box-shadow-4: 0 0 0 3px var(--neutral-800),
+    0 0 0 5px var(--neutral-0)
 }
 
 @layer utilities {
@@ -120,4 +122,5 @@ body {
   min-height      : 100vh;
   background-color: var(--neutral-900);
   color           : var(--neutral-0);
+  padding         : 48px 112px 80px 112px;
 }
