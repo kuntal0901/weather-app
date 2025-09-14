@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "BricolageGrotesque";
+  src        : url("./assets/fonts/Bricolage_Grotesque/static/BricolageGrotesque-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DMSansBold";
+  src        : url("./assets/fonts/DM_Sans/static/DMSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DMSansLight";
+  src        : url("./assets/fonts/DM_Sans/static/DMSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DMSansMedium";
+  src        : url("./assets/fonts/DM_Sans/static/DMSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DMSansSemiBold";
+  src        : url("./assets/fonts/DM_Sans/static/DMSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DMSansSemiBoldItalic";
+  src        : url("./assets/fonts/DM_Sans/static/DMSans-SemiBoldItalic.ttf") format("truetype");
+}
+
+@theme {
+  --neutral-900: hsl(243, 96%, 9%);
+  --neutral-800: hsl(243, 27%, 20%);
+  --neutral-700: hsl(243, 23%, 24%);
+  --neutral-600: hsl(243, 23%, 30%);
+  --neutral-300: hsl(240, 6%, 70%);
+  --neutral-200: hsl(250, 6%, 84%);
+  --neutral-0  : hsl(0, 0%, 100%);
+  --orange-500 : hsl(28, 100%, 52%);
+  --blue-500   : hsl(233, 67%, 56%);
+  --blue-700   : hsl(248, 70%, 36%);
+  --box-shadow-1:
+    0 0 0 2px var(--neutral-800),
+    0 0 0 3px var(--neutral-0);
+  --box-shadow-2: 0 4px 4px var(--neutral-600);
+}
+
+@layer utilities {
+  .text-preset-1 {
+    font-family   : "DMSansSemiBoldItalic";
+    font-size     : 96px;
+    line-height   : 100%;
+    letter-spacing: -2px;
+  }
+
+  .text-preset-2 {
+    font-family   : "BricolageGrotesque";
+    font-size     : 52px;
+    line-height   : 120%;
+    letter-spacing: 0;
+  }
+
+  .text-preset-3 {
+    font-family   : "DMSansLight";
+    font-size     : 32px;
+    line-height   : 100%;
+    letter-spacing: 0;
+  }
+
+  .text-preset-4 {
+    font-family   : "DMSansBold";
+    font-size     : 28px;
+    line-height   : 120%;
+    letter-spacing: 0;
+  }
+
+  .text-preset-5 {
+    font-family   : "DMSansSemiBold";
+    font-size     : 28px;
+    line-height   : 120%;
+    letter-spacing: 0;
+  }
+
+  .text-preset-5-medium {
+    font-family   : "DMSansMedium";
+    font-size     : 20px;
+    line-height   : 120%;
+    letter-spacing: 0;
+  }
+
+  .text-preset-6 {
+    font-family   : "DMSansMedium";
+    font-size     : 18px;
+    line-height   : 120%;
+    letter-spacing: 0;
+  }
+
+  .text-preset-7 {
+    font-family   : "DMSansMedium";
+    font-size     : 16px;
+    line-height   : 120%;
+    letter-spacing: 0;
+  }
+
+  .text-preset-8 {
+    font-family   : "DMSansMedium";
+    font-size     : 14px;
+    line-height   : 120%;
+    letter-spacing: 0;
+  }
+}
+
+body {
+  margin          : 0;
+  min-height      : 100vh;
+  background-color: var(--neutral-900);
+  color           : var(--neutral-0);
+}
