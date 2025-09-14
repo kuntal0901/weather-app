@@ -6,11 +6,11 @@ export const weatherUnits = [
         value: [
             {
                 id: "cel",
-                name: "Celsius (degC)"
+                name: "Celsius (°C)"
             },
             {
                 id: "far",
-                name: "Fahrenheit (def F)"
+                name: "Fahrenheit (°F)"
             }
         ]
     },
@@ -55,3 +55,140 @@ export const imperialUnits = {
     wind: "mph",
     pre: "in"
 }
+
+export const weatherInfoKeys = [{ id: "feelsLike", name: "Feels Like", value: "18°" }, { id: "humidity", name: "Humidity", value: "46%" }, { id: "wind", name: "Wind", value: "14 km/h" }, { id: "precipitation", name: "Precipitation", value: "0 mm" }]
+
+export const dailyForecast = [
+    {
+        id: "mon",
+        day: "Mon",
+        weather: "rainy",
+        dayTemp: "20°",
+        nightTemp: "14°",
+    },
+    {
+        id: "tue",
+        day: "Tue",
+        weather: "sunny",
+        dayTemp: "25°",
+        nightTemp: "16°",
+    },
+    {
+        id: "wed",
+        day: "Wed",
+        weather: "cloudy",
+        dayTemp: "22°",
+        nightTemp: "15°",
+    },
+    {
+        id: "thu",
+        day: "Thu",
+        weather: "drizzle",
+        dayTemp: "19°",
+        nightTemp: "13°",
+    },
+    {
+        id: "fri",
+        day: "Fri",
+        weather: "storm",
+        dayTemp: "18°",
+        nightTemp: "12°",
+    },
+    {
+        id: "sat",
+        day: "Sat",
+        weather: "rain",
+        dayTemp: "21°",
+        nightTemp: "14°",
+    },
+    {
+        id: "sun",
+        day: "Sun",
+        weather: "sunny",
+        dayTemp: "27°",
+        nightTemp: "18°",
+    },
+];
+
+export const hourlyForeCast = [
+    {
+        id: "3pm",
+        name: "3 PM",
+        weather: "rain",
+        temp: "18°"
+    },
+    {
+        id: "4pm",
+        name: "4 PM",
+        weather: "drizzle",
+        temp: "19°"
+    },
+    {
+        id: "5pm",
+        name: "5 PM",
+        weather: "cloudy",
+        temp: "20°"
+    },
+    {
+        id: "6pm",
+        name: "6 PM",
+        weather: "sunny",
+        temp: "21°"
+    },
+    {
+        id: "7pm",
+        name: "7 PM",
+        weather: "partly-cloudy",
+        temp: "20°"
+    },
+    {
+        id: "8pm",
+        name: "8 PM",
+        weather: "rainy",
+        temp: "18°"
+    },
+    {
+        id: "9pm",
+        name: "9 PM",
+        weather: "storm",
+        temp: "17°"
+    },
+    {
+        id: "10pm",
+        name: "10 PM",
+        weather: "cloudy",
+        temp: "16°"
+    }
+];
+
+export const days = [
+    {
+        id: "mon",
+        name: "Monday"
+    },
+    {
+        id: "tue",
+        name: "Tuesday"
+    },
+    {
+        id: "wed",
+        name: "Wednesday"
+    },
+    {
+        id: "thu",
+        name: "Thursday"
+    },
+    {
+        id: "fri",
+        name: "Friday"
+    },
+    {
+        id: "sat",
+        name: "Saturday"
+    },
+    {
+        id: "sun",
+        name: "Sunday"
+    }
+];
+

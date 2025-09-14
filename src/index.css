@@ -45,6 +45,9 @@
     0 0 0 2px var(--neutral-800),
     0 0 0 3px var(--neutral-0);
   --box-shadow-2: 0 4px 4px var(--neutral-600);
+  --box-shadow-3:
+    0 0 0 3px var(--neutral-900),
+    0 0 0 5px var(--blue-500)
 }
 
 @layer utilities {
@@ -78,7 +81,7 @@
 
   .text-preset-5 {
     font-family   : "DMSansSemiBold";
-    font-size     : 28px;
+    font-size     : 20px;
     line-height   : 120%;
     letter-spacing: 0;
   }
