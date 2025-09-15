@@ -13,9 +13,7 @@ export default function UnitsDropdown() {
 
     useEffect(() => {
         const handleOutsideClick = (event) => {
-            console.log(dropdownContentRef.current, event.target, showDropdown)
             if (showDropdown && dropdownContentRef.current && !dropdownContentRef.current.contains(event.target)) {
-                console.log(dropdownContentRef.current, event.target, showDropdown)
                 setShowDropdown(false)
             }
         }

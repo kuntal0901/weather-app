@@ -56,7 +56,7 @@ export const imperialUnits = {
     pre: "in"
 }
 
-export const weatherInfoKeys = [{ id: "feelsLike", name: "Feels Like", value: "18°" }, { id: "humidity", name: "Humidity", value: "46%" }, { id: "wind", name: "Wind", value: "14 km/h" }, { id: "precipitation", name: "Precipitation", value: "0 mm" }]
+export const weatherInfoKeys = [{ id: "apparent_temperature", name: "Feels Like", value: "18°" }, { id: "relative_humidity_2m", name: "Humidity", value: "46%" }, { id: "wind_speed_10m", name: "Wind", value: "14 km/h" }, { id: "precipitation", name: "Precipitation", value: "0 mm" }]
 
 export const dailyForecast = [
     {

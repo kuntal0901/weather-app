@@ -1,7 +1,15 @@
-import { dailyForecast } from "./weatherConstants";
+// import { dailyForecast } from "./weatherConstants";
+import { useEffect, useState } from "react";
 import { getWeatherImg } from "./weatherUtils";
 
-export default function DailyForecast() {
+export default function DailyForecast({ data = {} }) {
+
+    const [dailyForecast, setDailyForecast] = useState([]);
+    useEffect(() => {
+        const { temperature_2m_max = [], temperature_2m_min = [], weather_code = [] } = data;
+
+    }, [data])
+
     return (
         <div className="flex flex-col gap-[20px]">
             <div className="text-preset-5">Daily Forecast</div>
